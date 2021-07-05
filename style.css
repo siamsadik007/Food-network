@@ -2,90 +2,105 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 .flex{
-    display: flex;
-}
+    display: flex;}
+
 .nav-bar{
     height: 60px;
     width: 100%;
    background: rgb(255,143,45);
-background: linear-gradient(90deg, rgba(255,143,45,0.8127626050420168) 0%, rgba(255,189,32,0.8239670868347339) 40%, rgba(255,72,0,0.7315301120448179) 100%);
-}
+background: linear-gradient(90deg, rgba(255,143,45,0.8127626050420168) 0%, rgba(255,189,32,0.8239670868347339) 40%, rgba(255,72,0,0.7315301120448179) 100%);}
+
 .nav-bar ul {
-    padding: 10px 10px 0% 10px;
-}
+    padding: 10px 10px 0% 10px;}
+
 .nav-bar ul li{
 display: inline-block;
 font-size: 20px;
 margin:5 px 10px 0 10px;
-padding: 5px 40px 10px 40px;
-}
+padding: 5px 40px 10px 40px;}
+
 .nav-bar ul li a{
     text-decoration: none;
    color: white;
    border: 1px solid;
    border-radius: 4px;
-   padding: 5px;
-}
+   padding: 5px;}
+
 .nav-bar ul li a:hover{
     background-color: white;
-    color: black; 
-}
+    color: black; }
+
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
+
 .half-width img{
     width: 90%;
     padding-left: 5px;
-    margin-top: 8%;
-}
+    margin-top: 8%;}
+
 .half-width h1{
     font-size: 45px;
 }
+
 .skip-diet-text{
     margin: 10% 0 0 2%;
-    padding-left: 5%;
-}
+    padding-left: 5%;}
+
 .link-button{
     background:linear-gradient(white,red);
     text-decoration: none;
     color: white;
     padding: 14px 29px 14px 29px;
     margin-left: 5px;
-    border-radius: 30px;
-}
+    border-radius: 30px;}
+
 .half-width2{
     width: 50%;
     padding-left: 5%;
     margin: 5% 0 0 0;
 }
+
 .half-width2 img{
     width: 50%;
     margin-left: 20%;
 }
+
 .about-us-text{
     margin:8% 9% 0 0;
     padding:4% 5% 0 0;
 }
+
 .half-width2 h2{
-    font-size: 35px;
-}
+    font-size: 35px;}
+
 .bg{
     background-image: url(bg1.png);
 }
+
 .recipies{
     width: 100%;
-    justify-content: space-around;
-    text-align: center;
     
+    text-align: center;   
+   margin-left: 10%;
+   margin-right: 10%;
+   padding-left: 20px;
+   padding-right: 20px;
 }
+
 .food-img{
-    width: 70%;
+    width: 100%;
+  
 }
-.recipie-items{
+
+.recipies-items{
+    width: 20%;
     margin: 10px 3% 10px 3%;
-    padding: 10px 10px 80px 10px;
-    box-shadow: 10px 10px 40px black;
+    padding: 13px 13px 50px 13px;
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.253) ;
+    border-radius: 15px;
     
 }
