@@ -1,0 +1,28 @@
+*{margin: 0;}
+body{
+    font-family: 'Poppins', sans-serif;  
+}
+.flex{
+    display: flex;
+}
+.nav-bar{
+    height: 60px;
+    width: 100%;
+   background: rgb(255,143,45);
+background: linear-gradient(90deg, rgba(255,143,45,0.8127626050420168) 0%, rgba(255,189,32,0.8239670868347339) 40%, rgba(255,72,0,0.7315301120448179) 100%);
+}
+.nav-bar ul {
+    float:right;
+    padding: 0 0 0 0;
+   
+}
+.nav-bar ul li{
+display: inline-block;
+font-size: 20px;
+padding: 0 20px 20px 20px;
+margin-bottom: 100px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+   color: white;
+}
