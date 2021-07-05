@@ -2,7 +2,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+.orange{
+    color: orange;
+}
 .flex{
     display: flex;}
 
@@ -98,7 +100,7 @@ padding: 5px 40px 10px 40px;}
 
 .recipies-items{
     width: 20%;
-    margin: 10px 3% 10px 3%;
+    margin: 10px 2% 10px 2%;
     padding: 13px 13px 50px 13px;
     box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.253) ;
     border-radius: 15px;
