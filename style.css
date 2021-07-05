@@ -65,9 +65,27 @@ padding: 5px 40px 10px 40px;
     margin-left: 20%;
 }
 .about-us-text{
-    margin:6% 5% 0 0;
-    padding:10% 5% 0 0;
+    margin:8% 9% 0 0;
+    padding:4% 5% 0 0;
 }
 .half-width2 h2{
-    font-size: 30px;
+    font-size: 35px;
+}
+.bg{
+    background-image: url(bg1.png);
+}
+.recipies{
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.food-img{
+    width: 70%;
+}
+.recipie-items{
+    margin: 10px 3% 10px 3%;
+    padding: 10px 10px 80px 10px;
+    box-shadow: 10px 10px 40px black;
+    
 }
