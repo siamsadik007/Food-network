@@ -36,11 +36,12 @@ padding: 5px 40px 10px 40px;
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
     padding-left: 5px;
+    margin-top: 8%;
 }
 .half-width h1{
-    font-size: 40px;
+    font-size: 45px;
 }
 .skip-diet-text{
     margin: 10% 0 0 2%;
@@ -53,4 +54,20 @@ padding: 5px 40px 10px 40px;
     padding: 14px 29px 14px 29px;
     margin-left: 5px;
     border-radius: 30px;
+}
+.half-width2{
+    width: 50%;
+    padding-left: 5%;
+    margin: 5% 0 0 0;
+}
+.half-width2 img{
+    width: 50%;
+    margin-left: 20%;
+}
+.about-us-text{
+    margin:6% 5% 0 0;
+    padding:10% 5% 0 0;
+}
+.half-width2 h2{
+    font-size: 30px;
 }
